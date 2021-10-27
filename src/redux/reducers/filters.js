@@ -3,8 +3,11 @@ const SET_CATEGORY = 'SET_CATEGORY'
 
 
 const initialState = {
-    category: 0,
-    sortBy: 'popular'
+    category: null,
+    sortBy: {
+        type: 'popular',
+        order: 'desc'
+    }
 }
 
 
